@@ -2,7 +2,7 @@ package aoc.puzzles.day2
 
 import java.io.File
 
-fun solve(inputFile: String): Int {
+fun solve1(inputFile: String): Int {
     var posX = 0
     var posY = 0
     File(inputFile).forEachLine {

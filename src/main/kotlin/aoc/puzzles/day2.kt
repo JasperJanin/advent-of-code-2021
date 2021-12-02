@@ -2,7 +2,7 @@ package aoc.puzzles
 
 import java.io.File
 
-fun solve1(inputFile: String): Int {
+fun dive1(inputFile: String): Int {
     var posX = 0
     var posY = 0
     File(inputFile).forEachLine {
@@ -16,7 +16,7 @@ fun solve1(inputFile: String): Int {
     return posX * posY
 }
 
-fun solve2(inputFile: String): Int {
+fun dive2(inputFile: String): Int {
     var posX = 0
     var posY = 0
     var aim = 0
@@ -35,5 +35,5 @@ fun solve2(inputFile: String): Int {
 }
 
 fun main() {
-    println("Solution for puzzle 1: ${solve1("inputs/day2")}\nSolution for puzzle 2: ${solve2("inputs/day2")}")
+    println("Solution for puzzle 1: ${dive1("inputs/day2")}\nSolution for puzzle 2: ${dive2("inputs/day2")}")
 }

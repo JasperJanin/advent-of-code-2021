@@ -112,6 +112,6 @@ fun bingo2(inputFile: String): Int {
 }
 
 fun main() {
-    println("Solution for puzzle 1: ${bingo1("inputs/day4")}\nSolution for puzzle 2: ${bingo2("inputs/day4")}")
+    println("Solution for puzzle 1: ${bingo1("inputs/day04")}\nSolution for puzzle 2: ${bingo2("inputs/day04")}")
 
 }

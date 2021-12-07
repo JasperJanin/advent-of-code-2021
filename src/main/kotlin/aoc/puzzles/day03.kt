@@ -53,5 +53,5 @@ fun diagnostic2(inputFile: String): Int {
 }
 
 fun main() {
-    println("Solution for puzzle 1: ${diagnostic1("inputs/day3")}\nSolution for puzzle 2: ${diagnostic2("inputs/day3")}")
+    println("Solution for puzzle 1: ${diagnostic1("inputs/day03")}\nSolution for puzzle 2: ${diagnostic2("inputs/day03")}")
 }

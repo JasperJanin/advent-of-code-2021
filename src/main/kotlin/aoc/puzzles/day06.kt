@@ -40,5 +40,5 @@ fun fishies(inputFile: String, repetitions: Int): Long {
 }
 
 fun main() {
-    println("Solution 1: ${fishies("inputs/day6", 80)}\nSolution 2: ${fishies("inputs/day6", 256)}")
+    println("Solution 1: ${fishies("inputs/day06", 80)}\nSolution 2: ${fishies("inputs/day06", 256)}")
 }

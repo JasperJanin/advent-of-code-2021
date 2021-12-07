@@ -76,5 +76,5 @@ fun vents2(inputFile: String): Int {
 }
 
 fun main() {
-    println("Solution 1: ${vents1("inputs/day5")}\nSolution 2: ${vents2("inputs/day5")}")
+    println("Solution 1: ${vents1("inputs/day05")}\nSolution 2: ${vents2("inputs/day05")}")
 }

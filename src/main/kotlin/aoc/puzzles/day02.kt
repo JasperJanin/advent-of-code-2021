@@ -35,5 +35,5 @@ fun dive2(inputFile: String): Int {
 }
 
 fun main() {
-    println("Solution for puzzle 1: ${dive1("inputs/day2")}\nSolution for puzzle 2: ${dive2("inputs/day2")}")
+    println("Solution for puzzle 1: ${dive1("inputs/day02")}\nSolution for puzzle 2: ${dive2("inputs/day02")}")
 }

@@ -31,5 +31,5 @@ fun sonar2(inputFile: String): Int {
 }
 
 fun main() {
-    println("Solution for puzzle 1: ${sonar1("inputs/day1")}\nSolution for puzzle 2: ${sonar2("inputs/day1")}")
+    println("Solution for puzzle 1: ${sonar1("inputs/day01")}\nSolution for puzzle 2: ${sonar2("inputs/day01")}")
 }
